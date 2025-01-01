@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<!--Ria Bakshi, September 28th 2023-->
+
+<head>
+
+<!--title and favicon-->
+<title>Mom Made My Lunch: Home</title>
+<link rel="icon" type="image/x-icon" href="chef_favicon.png">
+
+<!--link to CSS stylesheet-->
+<link rel="stylesheet" href="Ex5_126022_stylesheet.css">
+
+</head>
+
+<body>
+
+<div class="nav">
+<!--navigation bar-->
+	<a href="index.html"><img src="website_logo.png" alt="Mom Made My Lunch" id="website_logo"></a>
+	<a href="about_us.html">About Us</a>
+	
+	<div class="subnav">
+	<a>Dishes</a>
+		<div class="subnav_content">
+		<a href="daal_chawal.html">Daal Chawal</a>
+		<a href="veg_pulao.html">Vegetable Pulao</a>
+		<a href="arbi.html">Arbi</a>
+		</div>
+	</div>
+	
+	<div class="subnav">
+	<a>Desserts</a>
+		<div class="subnav_content">
+		<a href="besan_ladoo.html">Besan Ladoo</a>
+		<a href="gulab_jamun.html">Gulab Jamun</a>
+		</div>
+	</div>
+	<a href="dorm_meals.html">Dorm Meals</a>
+	<a href="feedback.html">Feedback</a>	
+</div>
+
+
+<div id = "homepage_flexbox">
+
+<div id = "home_main">
+
+<!--div leading to about us page-->
+<div id="home_aboutus">
+
+<!--image of chef-->
+<img src="chef_pic.jpg" id="chef_pic" class="home_div_pics" alt="pic of chef"> 
+
+<p>All the recipes featured on this website have been in my family, passed through my Nani (grandmother), to my mom, to me, 
+collecting their own little twists with each generation.
+<br>
+Click here to learn more <a href="about_us.html">about us!</a>
+ </p>
+
+<a href="about_us.html"><button class="button">About Us</button></a>
+</div>
+
+<div id = "home_center">
+<div>
+<!--logo image-->
+<img src="website_logo.png" id="home_logo" alt="Mom Made My Lunch">
+
+<!--div to feedback-->
+<div id="home_feedback">
+
+<p>To provide feedback on any of our recipes or webpages, click here:</p>
+<a href="feedback.html"><button class="button">Feedback Form</button></a>
+</div>
+</div>
+</div>
+
+
+<!--div leading to dorm meals-->
+<div id="home_dormmeals">
+<!--image of maggi from https://www.secondrecipe.com/homemade-noodles-maggi-masala/-->
+<img src="maggi.jpg" class="home_div_pics" id="home_maggi" alt="maggi">
+
+<p>There are various ways to incorporate Indian food into your dorm meals with different types of snacks, quick meals, preservation techniques, etc.</p>
+
+<a href="dorm_meals.html"><button class="button">Dorm Meals</button></a>
+
+</div>
+</div>
+
+
+
+
+<div id="fix_position">
+<div id="mission_statement">
+<h2>Our Mission</h2>
+<p>Our mission is to provide recipes for authentic North Indian dishes that help bring about a taste of home or a wonderful new experience of flavors and memories.</p>
+</div>
+
+<div id="imgmap_label">
+<h2>Click on any of the dishes to the right to learn how to make them!</h2>
+</div>
+
+
+<!--image map of all the food-->
+<!--photo credits:
+Thali: https://mykitchentrials.com/2020/09/03/north-indian-thali-2/
+Daal: https://food.ndtv.com/recipe-gujarati-dal-322158
+ladoo: https://www.istockphoto.com/photos/ladoo
+Gulab Jamun: https://stock.adobe.com/search?k=gulab+jamun
+Arbi: https://maayeka.com/2014/08/arbi-ki-sookhi-sabzi.html -->
+<div id="thali_home">
+<img src="thali_resize.jpg" alt="thali with food" usemap="#thali">
+<map name="thali">
+	<area shape="circle" coords="212,129,50" alt="Daal" href="daal_chawal.html">
+	<area shape="circle" coords="109,135,50" alt="Arbi" href="arbi.html">
+	<area shape="circle" coords="162,226,50" alt="Vegetable Pulao" href="veg_pulao.html">
+	<area shape="circle" coords="54,225,50" alt="Gulab Jamun" href="gulab_jamun.html">
+	<area shape="circle" coords="277,217,50" alt="ladoo" href="besan_ladoo.html">
+</map>
+</div>
+
+
+<div id="disclaimer">
+<h3>Disclaimer:</h3>
+<p>This website was made for a school project and is not actively maintained. 
+The feedback form does not actually collect or store any information.  </p>
+<!--
+<p>These recipes do not guarantee the output seen in the pictures. Image of foods were found on the web, code has all the credits. 
+Not all recipes can be made in a dorm setting without access to the right equipment. 
+The feedback form does not have a back-end server yet, so your information will not be stored, nor will anything be done with user inputs.</p>
+-->
+</div>
+</div>
+</div>
+
+</body>
+
+</html>
